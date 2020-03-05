@@ -1,66 +1,511 @@
-<html>
+<!DOCTYPE html>
+<html dir="ltr" lang="zh-CN" id="bgimg">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<meta name="baidu_union_verify" content="84a16d6239c2064e1bbeb4808518e86b">
+<title>彩虹发卡-和平精英辅助官网</title>
+<meta name="description" content="认准彩虹发卡：和平精英辅助网站强势推出和平精英鸡腿辅助.和平精英免root手机支持IOS完美无需系列,全面兼容腾讯模拟器,安卓免root，IOS苹果辅助等一切设备,自瞄.透视.加速等多功能于一体,和平精英辅助网欢迎您到来,本站有全网稳定0封透视自瞄的和平精英辅助,其他吃鸡辅助功能如飞天人物加速穿墙追踪等多种科技，绝地求生辅助完美使用自助你吃鸡愉快">
+<meta name="keywords" content="大鸡腿辅助，和平精英透视，和平精英自瞄锁头，和平精英免root辅助，和平精英辅助，和平精英魔方辅助，和平精英外挂，ios苹果辅助，彩虹发卡，鸡腿辅助官网">
+<link rel="stylesheet" type="text/css" href="http://q6gcqqswx.bkt.clouddn.com/buttons.css">
+<link rel="stylesheet" type="text/css" href="http://q6gcqqswx.bkt.clouddn.com/showcase.css">
 
-       <style>
+<meta name="referrer" content="no-referrer" />
 
-               body {
 
-                   line-height:30px;
 
-                   background-color:#81ecec;
 
-               }
+<style>
+/* basic styles for black background and crosshair cursor */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box
+}
 
-               #main {
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	vertical-align: baseline;
+}
 
-                   text-align: center;
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display: block
+}
 
-                   position: relative;
+blockquote,q {
+	quotes: none
+}
 
-                   top: 15%;
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none
+}
 
-                   color: #ffffff;
+input,textarea {
+	margin: 0;
+	padding: 0
+}
 
-                   font-size:3rem;
+ol,ul {
+	list-style: none
+}
 
-                   line-height:5rem;
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
 
-               }
+caption,th {
+	text-align: left
+}
 
-               #ad {
+a:focus {
+	outline: 0
+}
 
-                   position: absolute;
+html {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-family: Microsoft YaHei,sans-serif;
+	z-index: 1;
+	line-height: 1.5;
+	background-color: #121925;
+	font-weight: 300;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	-webkit-transition: .5s linear;
+	-moz-transition: .5s linear;
+	-o-transition: .5s linear;
+	transition: .5s linear;
+	/*overflow:hidden*/
+}
 
-                   right: 0px;
 
-                   bottom: 0px;
+body:before {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(http://q6c4q9aje.bkt.clouddn.com/dongtai.gif) center 0 repeat;
+}
 
-                   color: #ffffff;
 
-               }
+a:hover {
+	color: #00b3ba
+}
 
-               </style>    
+b {
+	background-color: rgba(0,179,186,0.4)
+}
 
-   <body>
+::selection {
+	background: #00b3ba
+}
 
-       <div id=main>
+::-moz-selection {
+	background: #00b3ba
+}
 
-           春晓</br>
+.top_hr_style01 {
+	width: 70%;
+	margin: 5px auto;
+	border: 0;
+	border-bottom: 1px solid #fff
+}
 
-           作者：孟浩然</br>
+.top_hr_style02 {
+	border: 0;
+	border-bottom: 1px dashed #858585
+}
 
-           春眠不觉晓，处处闻啼鸟。</br>
+.slider {
+	width: 100%;
+	height: 150px;
+	-webkit-transition: .2s ease;
+	-moz-transition: .2s ease;
+	-o-transition: .2s ease;
+	transition: .2s ease;
+	background-image: url(./img/topBG.jpg);
+	background-color: #121925;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed
+}
 
-           夜来风雨声，花落知多少。</br>
+#top {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: auto;
+	z-index: 11
+}
 
-       </div>
+#top_img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image: url(./img/topBG.jpg);
+	background-color: #121925;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	z-index: 11
+}
 
-       <div id=ad>
+#top_main {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	padding: 40px 0 10px 0
+}
 
-           <img src="https://yooking.github.io/img/qrcode_for_gh_9ae9c8b0949b_258.jpg"></img>
+#top_logo {
+	height: 30%;
+	min-height: 50px;
+	max-height: 244px;
+	display: block
+}
 
-       </div>
+#top_logo img {
+	-webkit-animation: A 15s linear 0s infinite;
+	animation: A 15s linear 0s infinite;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	height: 100%
+}
 
-   </body>
+@-webkit-keyframes A {
+	0% {
+		-webkit-transform: rotate(0deg)
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg)
+	}
+}
+
+@keyframes A {
+	0% {
+		transform: rotate(0deg)
+	}
+
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+#top_title {
+	text-align: center;
+	padding-top: 15px;
+	display: block;
+	height: 10%
+}
+
+#top_title img {
+	margin-right: auto;
+	margin-left: auto;
+	display: block
+}
+
+#top_title #top_title01 {
+	height: 83%;
+	max-height: 59px;
+	min-height: 30px
+}
+
+#top_title #top_title02 {
+	height: 9px
+}
+#top_title #top_title02:hover{
+	background:rgba(0,0,0,0.8);
+}
+#top_navlist {
+	display: block;
+	width: 30%;
+	height: 220px;
+	max-width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px
+}
+
+#top_navlist::after {
+	content: " ";
+	display: block;
+	width: 20%;
+	height: 150px
+}
+
+.top_nav {
+	background-image:url(./style/nav_bg.png);
+	border-radius: 5px;
+	display: block;
+	width: 100%;
+	max-height: 40px;
+	min-height: 10px;
+	margin-top: 15px;
+	text-decoration: none;
+	font-size: 90%;
+	vertical-align: middle central;
+	color: #fff;
+	letter-spacing: .5px;
+	text-align: center;
+	-webkit-transition: .2s linear;
+	-moz-transition: .2s linear;
+	-o-transition: .2s linear;
+	transition: .2s linear;
+	line-height: 180%
+}
+
+.top_nav:hover {
+	border-radius: 5px;
+	background: #fff
+}
+
+#top_footer {
+	padding: 4px 10px 4px 10px;
+	background-color: #000;
+	background-color: rgba(0,0,0,0.9);
+	color: #858585;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 12;
+	-webkit-transition: .2s linear;
+	-moz-transition: .2s linear;
+	-o-transition: .2s linear;
+	transition: .2s linear
+}
+#top_footer:hover{
+	background-color: #FFF;
+	background-color: rgba(255,255,255,0.8);
+	color: #000;
+}
+#top_copyright {
+	display: block;
+	-webkit-transition: .2s linear;
+	-moz-transition: .2s linear;
+	-o-transition: .2s linear;
+	transition: .2s linear;
+	font-size: 10px;
+	letter-spacing: 1.5px;
+	text-align: center
+}
+
+@media screen and (max-width:500px) {
+	#top_footer {
+		padding: 1px
+	}
+
+	#top_copyright {
+		font-size: 8px;
+		letter-spacing: 0;
+		text-align: center
+	}
+}
+
+.tooltips:hover{
+-webkit-animation: none;
+animation: none;
+z-index:103;
+background:none; /*没有这个在IE中不可用*/
+}
+.tooltips span{
+display: none;
+}
+.tooltips:hover span{ /*span 标签仅在 :hover 状态时显示*/
+display:block;
+position:relative;
+}
+
+</style>
+<div style="text-align:center;clear:both">
+</div>
+
+<div class="tooltips">
+<span>
+<iframe src="http://music.163.com/outchain/player?type=0&amp;id=314572618&amp;auto=1&amp;height=280" width=330 height="300" frameborder="no" marginwidth="0" marginheight="0"></iframe>
+</span>
+</div>
+
+<!--背景音乐<div class="tooltips">
+<span>
+
+<iframe src="http://q6gcqqswx.bkt.clouddn.com/beijingyinyue.mp3" width=330 height="300" frameborder="no" marginwidth="0" marginheight="0"></iframe>
+</span>
+</div>背景音乐-->
+
+
+<!--背景音乐
+<audio autoplay="autoplay" loop="-1"><source src="http://q6gcqqswx.bkt.clouddn.com/beijingyinyue.mp3"></audio>
+背景音乐-->
+
+
+</head>
+<body>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b064bdbeae7f35b6e4d862d3b61c4187";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<div id="top">
+<main id="top_main">
+<div id="top_logo"><img src="http://q6c4q9aje.bkt.clouddn.com/tx.png" width="130"onmouseover="mouseOver()" onmouseout="mouseOut()" id="mainimg"></div>
+<div style="width: 200px; margin:0 auto;  text-align:center"><font face="Orbitron" style="color:#28FF28;text-shadow: 0 0 0.9em #750000,0 0 0.9em 
+Yellow;">全网最稳定辅助官网<br>强行碾压最为致命<br></font></div>
+<br><br>
+<div class="showcase-examples l-over l-center">
+  <a href="http://faka.caihongfaka.cn" class="button button-rounded button-plain button-small-caps button-border"><font face="Orbitron" style="color:#CC0707;text-shadow: 0 0 0.9em #6EC101,0 0 0.9em 
+Yellow;font-size: 20px">选择辅助</font></a>
+  <a href="http://caihongfaka.cn/ruanjian/" class="button button-rounded button-plain button-small-caps button-border"><font face="Orbitron" style="color:#CC0707;text-shadow: 0 0 0.9em #6EC101,0 0 0.9em 
+Yellow;font-size: 20px">提卡软件</font></a>
+  <a href="./fuzhushiping/index.html" class="button button-rounded button-plain button-small-caps button-border"><font face="Orbitron" style="color:#CC0707;text-shadow: 0 0 0.9em #6EC101,0 0 0.9em 
+Yellow;font-size: 20px">效果视频</font></a>
+  <a href="http://luntan.caihongfaka.cn" class="button button-rounded button-plain button-small-caps button-border"><font face="Orbitron" style="color:#CC0707;text-shadow: 0 0 0.9em #6EC101,0 0 0.9em 
+Yellow;font-size: 20px">辅助教程</font></a>
+  <a href="./zimulu/8.html" class="button button-rounded button-plain button-small-caps button-border"><font face="Orbitron" style="color:#CC0707;text-shadow: 0 0 0.9em #6EC101,0 0 0.9em 
+Yellow;font-size: 20px">在线客服</font></a>
+ <a href="./fuzhushiping/10.html" class="button button-rounded button-plain button-small-caps button-border"><font face="Orbitron" style="color:#CC0707;text-shadow: 0 0 0.9em #6EC101,0 0 0.9em 
+Yellow;font-size: 20px">加盟代理</font></a>
+  <a href="http://a.caihongfaka.cn" class="button button-rounded button-plain button-small-caps button-border"><font face="Orbitron" style="color:#CC0707;text-shadow: 0 0 0.9em #6EC101,0 0 0.9em 
+Yellow;font-size: 20px">官网网站</font></a>
+<br><br>
+
+  </div>
+
+</main>
+<script type="text/javascript">
+
+var omitformtags=["input", "textarea", "select"]
+
+omitformtags=omitformtags.join("|")
+
+function disableselect(e){ 
+if (omitformtags.indexOf(e.target.tagName.toLowerCase())==-1) 
+return false 
+}
+
+function reEnable(){ 
+return true 
+}
+
+if (typeof document.onselectstart!="undefined") 
+document.onselectstart=new Function ("return false") 
+else{ 
+document.onmousedown=disableselect 
+document.onmouseup=reEnable 
+} 
+</script>
+
+<script> 
+function stop(){ 
+return false; 
+} 
+document.oncontextmenu=stop; 
+
+	function click(e) {
+		if (document.layers) {
+			if (e.which == 3) {
+				oncontextmenu='return false';
+			}
+		}
+	}
+	if (document.layers) {
+		document.captureEvents(Event.MOUSEDOWN);
+	}
+	document.onmousedown=click;
+	document.oncontextmenu = new Function("return false;")
+	document.onkeydown =document.onkeyup = document.onkeypress=function(){ 
+		if(window.event.keyCode == 123) { 
+			window.event.returnValue=false;
+			return(false); 
+		} 
+	}
+</script>
+<script type="text/javascript">
+	function change(){
+		var bodyBgs = [];
+		bodyBgs[0] = "http://q6c4q9aje.bkt.clouddn.com/1.jpg";
+		bodyBgs[1] = "http://q6c4q9aje.bkt.clouddn.com/2.jpg";
+		bodyBgs[2] = "http://q6c4q9aje.bkt.clouddn.com/3.jpg";
+		bodyBgs[3] = "http://q6c4q9aje.bkt.clouddn.com/4.jpg";
+		bodyBgs[4] = "http://q6c4q9aje.bkt.clouddn.com/5.jpg";
+		bodyBgs[5] = "http://q6c4q9aje.bkt.clouddn.com/6.jpg";
+		bodyBgs[6] = "http://q6c4q9aje.bkt.clouddn.com/7.jpg";
+		bodyBgs[7] = "http://q6c4q9aje.bkt.clouddn.com/8.jpg";
+		bodyBgs[8] = "http://q6c4q9aje.bkt.clouddn.com/9.jpg";
+		bodyBgs[9] = "http://q6c4q9aje.bkt.clouddn.com/10.jpg";
+		bodyBgs[10] ="http://q6c4q9aje.bkt.clouddn.com/1.jpg";
+//注意 bodyBgs[50] 50是当前序号, 按照顺序添加或删除即可, 但是序号必须是连续的
+
+		//bodyBgs[] = "";
+
+		var randomBgIndex = Math.round( Math.random() * 10 );//这里的10是随机取值范围, 取最后一个 bodyBgs[*] 的值即可
+		//document.write('<style>html{background-image:url(' + bodyBgs[randomBgIndex] + ')}</style>');
+		var img1= document.getElementById('bgimg');
+		img1.style.backgroundImage='url(' + bodyBgs[randomBgIndex] + ')';
+	        window.setTimeout(function(){change()},9500);//图片切换时间 1000=1s
+	}
+	change();
+</script>
+<script>
+	function mouseOver(){
+		document.getElementById("mainimg").src="http://q6c4q9aje.bkt.clouddn.com/wangzhan.png";//鼠标悬浮时的旋转图标
+	}
+	function mouseOut()
+	{
+		document.getElementById('mainimg').src ="./htmlimg/chiji.png"//默认的旋转图标
+	}
+</script>
+
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+</div>
+<footer id="top_footer">
+<span id="top_copyright">
+<hr class="top_hr_style02">
+
+(°ˊДˋ°)つ友情链接：<a href="http://caihongheaven.cn/"title="彩虹发卡官方网站">主站</a><a>◆</a><a href="http://www.caihongfaka.cn/"title="彩虹备用站">备用站</a><a>◆</a><a title="哪里买和平精英外挂"Href="http://faka.caihongfaka.cn/">提卡网</a>
+<hr class="top_hr_style02">
+© 2018-2020 游戏辅助授权官网<br><a href="./jiaocheng/index.html"title="彩虹发卡">和平精英魔方辅助 </a><a href="./jiaocheng/110.html"title="和平精英外挂">和平精英大鸡腿辅助 </a><a href="./jiaocheng/1.html"title="和平精英大仙祝融辅助">和平精英大仙祝融辅助 </a><a href="./jiaocheng/2.html"title="和平精英游戏辅助">和平精英仙人辅助 </a><a href="./jiaocheng/3.html"title="和平精英透视">和平精英小霸王辅助 </a><a href="./jiaocheng/index.html"title="和平精英自瞄锁头">和平精英咏春辅助 </a><a href="http://www.caihongheaven.cn/"title="和平精英IOS苹果辅助">和平精英乾坤辅助 </a><a href="http://www.caihongheaven.cn/"title="和平精英安卓手机辅助">和平精英KIMI辅助 </a><a href="http://www.caihongheaven.cn/"title="和平精英外挂怎么用">和平精英GM辅助 </a><a href="http://www.caihongheaven.cn/"title="和平精英辅助怎么用">和平精英波比辅助 </a><a href="./a/index.html"title="哪里有和平精英外挂买？">和平精英龙辅助 </a><a href="http://www.caihongheaven.cn/"title="怎么用和平精英辅助？">和平精英黑曼巴辅助 </a><a href="http://www.caihongheaven.cn/"title="和平精英辅助低价发卡">和平精英麒麟辅助 </a><a href="./a/index.html"title="和平精英辅助授权官网">和平精英德莱文辅助 </a><a href="http://www.caihongheaven.cn/"title="买游戏辅助到彩虹发卡">和平精英老司机辅助 </a><br>
+
+</span>
+</footer>
+
+</body>
+
 
 </html>
-
